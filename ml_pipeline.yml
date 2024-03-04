@@ -1,0 +1,34 @@
+name: ML Model CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'data/**'
+
+jobs:
+  train-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.8'
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install mlflow sklearn pandas
+    - name: Train model
+      run: python train_model.py
+    - name: Evaluate model
+      run: python evaluate_model.py
+    - name: Deploy model
+      run: |
+        if [ "$(python evaluate_model.py --check-performance)" = "true" ]; then
+          echo "Deploying model..."
+          
+        else
+          echo "Model performance does not meet criteria, skipping deployment."
+        fi
