@@ -1,8 +1,8 @@
 aliases: []
 creation_timestamp: 1709513233549
-current_stage: None
+current_stage: Production
 description: null
-last_updated_timestamp: 1709513233549
+last_updated_timestamp: 1709518546683
 name: TitanicSurvivalModel
 run_id: 1dd6fb5f9d7045c7b257915a08515527
 run_link: null

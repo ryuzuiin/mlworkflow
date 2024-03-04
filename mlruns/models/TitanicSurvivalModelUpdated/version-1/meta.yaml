@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1709517775753
+current_stage: None
+description: null
+last_updated_timestamp: 1709517775753
+name: TitanicSurvivalModelUpdated
+run_id: e8f77631e93b4746b64774b06c05a79d
+run_link: null
+source: file:///Users/ryliu/Documents/09GitRep/mlworkflow/mlruns/377329108053326363/e8f77631e93b4746b64774b06c05a79d/artifacts/model_updated
+status: READY
+status_message: null
+storage_location: file:///Users/ryliu/Documents/09GitRep/mlworkflow/mlruns/377329108053326363/e8f77631e93b4746b64774b06c05a79d/artifacts/model_updated
+user_id: null
+version: 1

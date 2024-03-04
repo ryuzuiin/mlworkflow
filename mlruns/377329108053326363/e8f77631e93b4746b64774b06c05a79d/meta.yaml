@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/ryliu/Documents/09GitRep/mlworkflow/mlruns/377329108053326363/e8f77631e93b4746b64774b06c05a79d/artifacts
+end_time: 1709517775754
+entry_point_name: ''
+experiment_id: '377329108053326363'
+lifecycle_stage: active
+run_id: e8f77631e93b4746b64774b06c05a79d
+run_name: luminous-croc-357
+run_uuid: e8f77631e93b4746b64774b06c05a79d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1709517774093
+status: 3
+tags: []
+user_id: ryliu

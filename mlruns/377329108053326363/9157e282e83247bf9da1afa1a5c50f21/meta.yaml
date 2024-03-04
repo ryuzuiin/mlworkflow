@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/ryliu/Documents/09GitRep/mlworkflow/mlruns/377329108053326363/9157e282e83247bf9da1afa1a5c50f21/artifacts
+end_time: 1709517447181
+entry_point_name: ''
+experiment_id: '377329108053326363'
+lifecycle_stage: active
+run_id: 9157e282e83247bf9da1afa1a5c50f21
+run_name: valuable-snipe-36
+run_uuid: 9157e282e83247bf9da1afa1a5c50f21
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1709517445774
+status: 3
+tags: []
+user_id: ryliu
