@@ -1,0 +1,6 @@
+artifact_location: file:///Users/ryliu/Documents/09GitRep/mlworkflow/mlruns/377329108053326363
+creation_time: 1709513074142
+experiment_id: '377329108053326363'
+last_update_time: 1709513074142
+lifecycle_stage: active
+name: titanic_survival_prediction
